@@ -64,7 +64,7 @@ st.title("🩺 Prediksi Penyakit Reumatik & Autoimun")
 st.caption("Model: Gradient Boosting (GBoost) + seleksi fitur RFE · Rekonstruksi Mahdi et al. (2025), PeerJ Computer Science 11:e3096")
 
 if bundle is None:
-    st.error("Berkas model belum ditemukan (`model/model_bundle.joblib`).")
+    st.error("Berkas model belum ditemukan (`model_bundle.joblib`).")
     st.markdown("Jalankan perintah berikut sekali pada folder aplikasi, lalu muat ulang halaman:")
     st.code('python train_model.py --data "Rheumatic and Autoimmune Disease Dataset.xlsx"', language="bash")
     st.stop()
